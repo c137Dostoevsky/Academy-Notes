@@ -3,5 +3,5 @@ Description and Solution of all labs are from the site.
 
 Each note written by Typora contains: 
 - Lab Description
-- Lab Soution
-- Scribble
+- Lab Solution
+- My Scribble

